@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(171, 219, 220);
+}
+.card{
+    background-color: rgb(253, 232, 205);
+}
+#submit{
+    background-color: rgb(140, 162, 101);
+}
+#header{
+    color: rgb(140, 162, 101) ;
+}
+#yüzde{
+    width: 1rem;
+}
+#color{
+    color: rgb(114, 110, 104);
+}
+#clear{
+    background-color: rgb(205, 109, 109);
+}
