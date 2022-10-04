@@ -8,16 +8,16 @@ onay.addEventListener("click",function(){
     const result=agırlık.value/(boy.value*boy.value);
     if(result<=18.4){
         sonuc.innerText =`${result.toFixed(2)}`;
-        end.innerText += `Underweight`;
+        end.innerText = `Underweight`;
     }else if(result<=24.9){
         sonuc.innerText =`${result.toFixed(2)}`;
-        end.innerText += `Normal`;
+        end.innerText = `Normal`;
     }else if(result<=39.9){
         sonuc.innerText =`${result.toFixed(2)}`;
-        end.innerText += `Overweight`;
+        end.innerText = `Overweight`;
     }else{
         sonuc.innerText =`${result.toFixed(2)}`;
-        end.innerText += `Obese`;
+        end.innerText = `Obese`;
     }
 })
 weight.addEventListener("keydown",(event)=>{
